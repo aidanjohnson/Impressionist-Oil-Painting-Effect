@@ -1,0 +1,82 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="709953717" file="U:\4th Year (2017-2018)\Autumn Quarter\EE 440\2017FallEE440Project\final_project_johnson_aidan_code\Painterly Rendering.prj" location="U:\4th Year (2017-2018)\Autumn Quarter\EE 440\2017FallEE440Project\final_project_johnson_aidan_code" name="Painterly Rendering" target="target.mlapps" target-name="Package App">
+    <param.appname>Painterly Rendering</param.appname>
+    <param.authnamewatermark>Aidan Johnson</param.authnamewatermark>
+    <param.email>johnsj96@uw.edu</param.email>
+    <param.company>University of Washington</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>Renders input image as a non-photorealistic painted image that has the appearance of an oil painting for given parameters (e.g. in the impressionist style or a custom style).</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>U:\4th Year (2017-2018)\Autumn Quarter\EE 440\2017FallEE440Project</param.output>
+    <param.guid>3c331006-ba2b-4258-a905-110ea2e3b2eb</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\renderPaintGUI.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\renderPaint.m</file>
+      <file>${PROJECT_ROOT}\renderPaintGUI.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="U:\4th Year (2017-2018)\Autumn Quarter\EE 440" name="2017FallEE440Project" optional="false">U:\4th Year (2017-2018)\Autumn Quarter\EE 440\2017FallEE440Project</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
