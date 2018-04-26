@@ -1,7 +1,9 @@
+## Painterly Rendering: Impressionist Oil Paiting
+
 For ease-of-use, I packaged my GUI and MATLAB problem as an App. The App package can be installed to MATLAB and the user can then load an image of their choice and set the rendering parameters. This was done to ensure the GUI opened up correctly (the individual code files are also provided). The user could also set the parameters to the default Impressionist style (where the threshold is 50, grid size factor is 1, blur factor is 0.5, curvature filter factor is 1, maximum stroke length is 16 points, minimum stroke length is 4 points, and the set of brush size radii of 2, 4, and 8 pixels). For those that want to inspect the code, the .m files for the renderer and the GUI are provided. The render can be run from the command window console by calling renderPaint.m file with (where type is in brackets): 
-
+```
 renderPaint(imgName [char], threshold [double], grid size [double], blur factor [double], curvature [double], max length [double], min length [double], brush radii [R1,R2,R3], canvas colour [R,G,B]) 
-
+```
 This returns a matrix representation of the output image, which can be written to a file with imwrite(). The GUI (see Figure 6 for a screenshot) can also be run by running the renderPaintGUI.m file. 
 
 Notwithstanding, to try rendering your own image, I recommend using the MATLAB App package. Once the App is installed, it can be run from APPS tab in MATLAB. First, load an image by pressing the 'Load' button located in the 'Action' box. Then select your image from the window. The image will then be displayed in the box on the left. After pressing 'OK' select the style you want ('Impressionist' or 'Custom') from the options in the 'Style' box. Selecting the 'Impressionist' style will grey out the text entry boxes for the parameters. 
